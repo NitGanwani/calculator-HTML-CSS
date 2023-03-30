@@ -32,10 +32,10 @@ const getOperation = () => {
   }
   switch(operator) {
     case '+':
-      result = previousOperandToNumber + currentOperandToNumber
+      result = previousOperandToNumber + currentOperandToNumber;
       break;
     case '-':
-      result = previousOperandToNumber - currentOperandToNumber
+      result = previousOperandToNumber - currentOperandToNumber;
       break;
     case '÷':
       if (currentOperandToNumber === 0) {
@@ -46,8 +46,7 @@ const getOperation = () => {
       };
       break;
     case '*':
-      result = previousOperandToNumber * currentOperandToNumber
-      console.log(result);
+      result = previousOperandToNumber * currentOperandToNumber;
       break;  
     default: 
      return;
